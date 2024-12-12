@@ -15,5 +15,6 @@ spec:
         app: hello-world-flask
     spec:
       containers:
-      - image: lyzhang1999/hello-world-flask:latest
+      - image: lyzhang1999/hello-world-flask:v1
+        imagePullPolicy: IfNotPresent
         name: hello-world-flask
